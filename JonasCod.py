@@ -1,4 +1,4 @@
-     #Bibiotecas
+'''#Bibiotecas
 from math import sqrt
 from time import sleep
 import random
@@ -107,16 +107,6 @@ del(comida)
 print('\n')
 
 
-        #Listas
-
-cont = 'zero','um','dois','tres','quatro','cinco'
-while True:
-    nume = int(input('Numero entre 0 e 5: '))
-    if 0 <= nume <= 5:
-        break
-print(f'Voce digitou o numero {cont[nume]}')
-print('\n')
-
         #Dicionário
 anime = {'titulo' : 'Another', 'ano' : 2012, 'diretor' : 'Matsumoto'}
 print(anime.keys())
@@ -124,7 +114,6 @@ print(anime.items())
 del anime['ano']
 
 anime['temporada'] = 'Outono'
-
 print(f'O anime {anime["titulo"]} foi lançado em {anime["temporada"]}')
 
 for k, v in anime.items():  #items,values,keys
@@ -133,7 +122,6 @@ print('\n')
 
 
         #Função
-
 def lin():
     print('-'*30)
 lin()
@@ -175,7 +163,7 @@ def soma(a=0,b=0,c=0):
 r = soma(3,2,5)
 r2 = soma(1,7)
 r3 = soma(4)
-print(f'Os calculos deram {r},{r2} e {r3}')
+print(f'Os calculos deram {r},{r2} e {r3} \n')
 
 
         #Interactive help
@@ -195,4 +183,26 @@ except ValueError:          #Pode ter uma mensagem expecífica para os erros
 else:
     print(f'O resultado é {r}')
 finally:
-    print('Volte sempre!')
+    print('Volte sempre!\n')
+
+
+        #Listas
+cont = 'zero','um','dois','tres','quatro','cinco'
+while True:
+    nume = int(input('Numero entre 0 e 5: '))
+    if 0 <= nume <= 5:
+        break
+print(f'Voce digitou o numero {cont[nume]}')
+print('\n')
+
+par = [2,4,6,8,10]
+imp = 'jonas','eduardo','campos','martins'
+filme = {'violet evergarden' : 9.2, 'koeno katachi' : 8.23, 'starwars' : 10}
+alunos = ['jonas']
+
+for itens in par:
+    print(par[0])
+for itens1 in imp:
+    print(imp[1])
+for itens2 in filme:
+    print(filme[3])'''
